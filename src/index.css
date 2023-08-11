@@ -1,0 +1,24 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html{
+    font-family: sans-serif;
+}
+body{
+    background-color: #3f3f3f;
+}
+input{
+    border: "none";
+    outline: "none";
+    border: "2px solid darkgreen";
+    padding: ".25rem";
+    font-size: "1.5rem";
+    margin-right: 5px;
+  }
+.invalid input{
+    border: 2px solid red !important;
+    background-color: rgb(221, 154, 154);
+}
